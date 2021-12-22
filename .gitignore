@@ -1,0 +1,7 @@
+.vs
+.idea
+bin
+lib
+Release
+Debug
+Tests

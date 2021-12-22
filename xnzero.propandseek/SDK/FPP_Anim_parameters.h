@@ -1,0 +1,338 @@
+﻿#pragma once
+
+// Name: pns, Version: 1
+
+
+/*!!DEFINE!!*/
+
+/*!!HELPER_DEF!!*/
+
+/*!!HELPER_INC!!*/
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x01)
+#endif
+
+namespace CG
+{
+//---------------------------------------------------------------------------
+// Parameters
+//---------------------------------------------------------------------------
+
+// Function FPP_Anim.FPP_Anim_C.EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_71E31F5E4BC1F850264F378875E650CD
+struct UFPP_Anim_C_EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_71E31F5E4BC1F850264F378875E650CD_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_ED3E00A5432E515B352465B9E8027E95
+struct UFPP_Anim_C_EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_ED3E00A5432E515B352465B9E8027E95_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_1D8B7D75457DECBA27CC1694BFEC7F43
+struct UFPP_Anim_C_EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_1D8B7D75457DECBA27CC1694BFEC7F43_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_0215720345B7576124D70B815621F4F4
+struct UFPP_Anim_C_EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_0215720345B7576124D70B815621F4F4_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_990B0E5A4833B3DCF1412799DA018C12
+struct UFPP_Anim_C_EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_990B0E5A4833B3DCF1412799DA018C12_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_E8C313AD4EB543D1118B4B8AD76DAD70
+struct UFPP_Anim_C_EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_E8C313AD4EB543D1118B4B8AD76DAD70_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_D0E6FC5E41BEBA42BD509E82FFFA0D2A
+struct UFPP_Anim_C_EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_D0E6FC5E41BEBA42BD509E82FFFA0D2A_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_39A65B224BF8DA0DFCB86EAA8FD10B60
+struct UFPP_Anim_C_EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_39A65B224BF8DA0DFCB86EAA8FD10B60_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_399F93B24CE46A9016120888C97A1AE2
+struct UFPP_Anim_C_EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_399F93B24CE46A9016120888C97A1AE2_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_2B40E2994169E6FEC8309EB509688530
+struct UFPP_Anim_C_EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_2B40E2994169E6FEC8309EB509688530_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_3E082DB24F4A187579CA5D84F172536D
+struct UFPP_Anim_C_EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_3E082DB24F4A187579CA5D84F172536D_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_2AA0FBA540837AE4E5DC1AB11CEDE647
+struct UFPP_Anim_C_EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_2AA0FBA540837AE4E5DC1AB11CEDE647_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_46F773A04C204148F5A22EB368D8318A
+struct UFPP_Anim_C_EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_46F773A04C204148F5A22EB368D8318A_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_1886FC4A454C861B21E1C6AF38D5A124
+struct UFPP_Anim_C_EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_1886FC4A454C861B21E1C6AF38D5A124_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_7FD7D7BF48B5A1674619B7A35B5FDA5C
+struct UFPP_Anim_C_EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_7FD7D7BF48B5A1674619B7A35B5FDA5C_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_4480EF2D4C1A99257DFD70BC88BCAED7
+struct UFPP_Anim_C_EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_4480EF2D4C1A99257DFD70BC88BCAED7_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_C446AF6A4D3CEF4812F6FFB5FC696D80
+struct UFPP_Anim_C_EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_C446AF6A4D3CEF4812F6FFB5FC696D80_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_DFC52CB0406906231FC5FDBDFADA70F4
+struct UFPP_Anim_C_EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_DFC52CB0406906231FC5FDBDFADA70F4_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_7AD9DAF74A758A68EA46E88A49FB8389
+struct UFPP_Anim_C_EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_7AD9DAF74A758A68EA46E88A49FB8389_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_648D342845DF8C6B9FD4E3B4058A5D82
+struct UFPP_Anim_C_EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_648D342845DF8C6B9FD4E3B4058A5D82_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_C0DE3AE34A5E1A6D73C40085878E0404
+struct UFPP_Anim_C_EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_C0DE3AE34A5E1A6D73C40085878E0404_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_214532BA435FAEFE297691A0C5DF45E3
+struct UFPP_Anim_C_EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_214532BA435FAEFE297691A0C5DF45E3_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_070768834278E8FF3EF878879949E8F4
+struct UFPP_Anim_C_EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_070768834278E8FF3EF878879949E8F4_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_C5545AE042246EC1BC7153932D5B44F0
+struct UFPP_Anim_C_EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_C5545AE042246EC1BC7153932D5B44F0_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_1E5A8E444033743A327EF7A8DD298D71
+struct UFPP_Anim_C_EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_1E5A8E444033743A327EF7A8DD298D71_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_789714034D7A51A1688B27B50DCBF66A
+struct UFPP_Anim_C_EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_789714034D7A51A1688B27B50DCBF66A_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_B06751D0401195C4AA7EBF827E2081B1
+struct UFPP_Anim_C_EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_B06751D0401195C4AA7EBF827E2081B1_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_1C695B954E1EEFA22EC6F990ACFDAB44
+struct UFPP_Anim_C_EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_1C695B954E1EEFA22EC6F990ACFDAB44_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_C78C48AC4C64C4EBDDF8BD8B2B10377D
+struct UFPP_Anim_C_EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_C78C48AC4C64C4EBDDF8BD8B2B10377D_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_C379818C41331F8B081BA080E0CE456A
+struct UFPP_Anim_C_EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_C379818C41331F8B081BA080E0CE456A_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_161A8BDB4E7FB0C99029D3A111B6FB35
+struct UFPP_Anim_C_EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_161A8BDB4E7FB0C99029D3A111B6FB35_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_0A556EDB4FD147BBF88CE3BCDF8D7B69
+struct UFPP_Anim_C_EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_0A556EDB4FD147BBF88CE3BCDF8D7B69_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_F5627CD8432F814EB65E7E8E7065A003
+struct UFPP_Anim_C_EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_F5627CD8432F814EB65E7E8E7065A003_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_67EC4B3E49E4CD6123BFAE85A6692443
+struct UFPP_Anim_C_EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_67EC4B3E49E4CD6123BFAE85A6692443_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_2293B6B3465D86F86F9FA9A23F96B451
+struct UFPP_Anim_C_EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_2293B6B3465D86F86F9FA9A23F96B451_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_E259DAF145C8585DFBCA088A737544B6
+struct UFPP_Anim_C_EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_E259DAF145C8585DFBCA088A737544B6_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_Fabrik_2685BB894899EC9372F037B94D830EFD
+struct UFPP_Anim_C_EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_Fabrik_2685BB894899EC9372F037B94D830EFD_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_A282FA764B8C92F2519214A2211FB2AA
+struct UFPP_Anim_C_EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_A282FA764B8C92F2519214A2211FB2AA_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_23D9B9B04046FABB0A4C95AA83123DF3
+struct UFPP_Anim_C_EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_23D9B9B04046FABB0A4C95AA83123DF3_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_A9B140B741DD4685533F78ABC518A2EC
+struct UFPP_Anim_C_EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_A9B140B741DD4685533F78ABC518A2EC_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_71C99F9245271F1C2B69D5A30007FD93
+struct UFPP_Anim_C_EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_71C99F9245271F1C2B69D5A30007FD93_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_438ED56446995830D4ECE3AA41E249ED
+struct UFPP_Anim_C_EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_438ED56446995830D4ECE3AA41E249ED_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_EB6ACC1A4E285BAFC899F69D02858ADB
+struct UFPP_Anim_C_EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_EB6ACC1A4E285BAFC899F69D02858ADB_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_C00CB200443FC36BBC287DB03DC74664
+struct UFPP_Anim_C_EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_C00CB200443FC36BBC287DB03DC74664_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_885CBAD84D66D591DAC7BEA34A0B860D
+struct UFPP_Anim_C_EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_885CBAD84D66D591DAC7BEA34A0B860D_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.AnimNotify_UnpinSound
+struct UFPP_Anim_C_AnimNotify_UnpinSound_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.AnimNotify_LauncherFireSound
+struct UFPP_Anim_C_AnimNotify_LauncherFireSound_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.BlueprintUpdateAnimation
+struct UFPP_Anim_C_BlueprintUpdateAnimation_Params
+{
+	float                                              DeltaTimeX;                                                // 0x0000(0x0004)  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+
+// Function FPP_Anim.FPP_Anim_C.EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_044A88304A0C5BEA1C8C3690E4DC4D60
+struct UFPP_Anim_C_EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_044A88304A0C5BEA1C8C3690E4DC4D60_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.BlueprintBeginPlay
+struct UFPP_Anim_C_BlueprintBeginPlay_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.AnimNotify_Pistol_ReloadInsert
+struct UFPP_Anim_C_AnimNotify_Pistol_ReloadInsert_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.AnimNotify_Pistol_ReloadEject
+struct UFPP_Anim_C_AnimNotify_Pistol_ReloadEject_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_DF9EE9EC42B2C8784797F780D676EB74
+struct UFPP_Anim_C_EvaluateGraphExposedInputs_ExecuteUbergraph_FPP_Anim_AnimGraphNode_TransitionResult_DF9EE9EC42B2C8784797F780D676EB74_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.AnimNotify_Knife_Sound_Swing
+struct UFPP_Anim_C_AnimNotify_Knife_Sound_Swing_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.AnimNotify_KnifeShoot
+struct UFPP_Anim_C_AnimNotify_KnifeShoot_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.AnimNotify_Reload
+struct UFPP_Anim_C_AnimNotify_Reload_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.AnimNotify_GrabRocket
+struct UFPP_Anim_C_AnimNotify_GrabRocket_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.AnimNotify_ReloadFinished
+struct UFPP_Anim_C_AnimNotify_ReloadFinished_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.AnimNotify_OnGrenadeReloadFinished
+struct UFPP_Anim_C_AnimNotify_OnGrenadeReloadFinished_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.AnimNotify_OnGrenadeUnpinFinished
+struct UFPP_Anim_C_AnimNotify_OnGrenadeUnpinFinished_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.AnimNotify_OnGrenadeThrow
+struct UFPP_Anim_C_AnimNotify_OnGrenadeThrow_Params
+{
+};
+
+// Function FPP_Anim.FPP_Anim_C.ExecuteUbergraph_FPP_Anim
+struct UFPP_Anim_C_ExecuteUbergraph_FPP_Anim_Params
+{
+	int                                                EntryPoint;                                                // 0x0000(0x0004)  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif

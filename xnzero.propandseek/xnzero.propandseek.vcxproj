@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{f5faee94-c091-4038-acb4-e77ee9f8c5c0}</ProjectGuid>
+    <RootNamespace>xnzero</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>xnzero.propandseek</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)bin\$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <GenerateManifest>false</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;EXAMPLE_EXPORTS;_WINDOWS;_USRDLL;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <CallingConvention>FastCall</CallingConvention>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <StringPooling>
+      </StringPooling>
+      <EnableEnhancedInstructionSet>NotSet</EnableEnhancedInstructionSet>
+      <ExceptionHandling>false</ExceptionHandling>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalOptions>/Zc:threadSafeInit-</AdditionalOptions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <ControlFlowGuard>Guard</ControlFlowGuard>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <CreateHotpatchableImage>
+      </CreateHotpatchableImage>
+      <CompileAs>Default</CompileAs>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <SupportJustMyCode>false</SupportJustMyCode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>false</EnableCOMDATFolding>
+      <OptimizeReferences>false</OptimizeReferences>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+      <EnableUAC>false</EnableUAC>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="drawing\drawing.cpp" />
+    <ClCompile Include="entity.cpp" />
+    <ClCompile Include="functions\Functions.cpp" />
+    <ClCompile Include="globals\globals.cpp" />
+    <ClCompile Include="hooks\Hooks.cpp" />
+    <ClCompile Include="logger\Logger.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="memory\memory.cpp" />
+    <ClCompile Include="SDK\BasicHelper.cpp" />
+    <ClCompile Include="SDK\CoreUObject_functions.cpp" />
+    <ClCompile Include="SDK\Engine_functions.cpp" />
+    <ClCompile Include="SDK\FPS_Character2_functions.cpp" />
+    <ClCompile Include="SDK\Prop_functions.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="drawing\drawing.hpp" />
+    <ClInclude Include="globals\globals.hpp" />
+    <ClInclude Include="include.h" />
+    <ClInclude Include="memory\memory.hpp" />
+    <ClInclude Include="memory\offsets.h" />
+    <ClInclude Include="entity.h" />
+    <ClInclude Include="functions\Functions.h" />
+    <ClInclude Include="hooks\hooks.h" />
+    <ClInclude Include="imgui\stb_image.h" />
+    <ClInclude Include="include\imgui\hashes.h" />
+    <ClInclude Include="logger\Logger.h" />
+    <ClInclude Include="minhook\MinHook.h" />
+    <ClInclude Include="plog\Appenders\AndroidAppender.h" />
+    <ClInclude Include="plog\Appenders\ColorConsoleAppender.h" />
+    <ClInclude Include="plog\Appenders\ConsoleAppender.h" />
+    <ClInclude Include="plog\Appenders\DebugOutputAppender.h" />
+    <ClInclude Include="plog\Appenders\EventLogAppender.h" />
+    <ClInclude Include="plog\Appenders\IAppender.h" />
+    <ClInclude Include="plog\Appenders\RollingFileAppender.h" />
+    <ClInclude Include="plog\Converters\NativeEOLConverter.h" />
+    <ClInclude Include="plog\Converters\UTF8Converter.h" />
+    <ClInclude Include="plog\Formatters\CsvFormatter.h" />
+    <ClInclude Include="plog\Formatters\FuncMessageFormatter.h" />
+    <ClInclude Include="plog\Formatters\MessageOnlyFormatter.h" />
+    <ClInclude Include="plog\Formatters\TxtFormatter.h" />
+    <ClInclude Include="plog\Init.h" />
+    <ClInclude Include="plog\Log.h" />
+    <ClInclude Include="plog\Logger.h" />
+    <ClInclude Include="plog\Record.h" />
+    <ClInclude Include="plog\Severity.h" />
+    <ClInclude Include="plog\Util.h" />
+    <ClInclude Include="plog\WinApi.h" />
+    <ClInclude Include="xor.hpp" />
+    <ClInclude Include="ZeroGUI.h" />
+    <ClInclude Include="ZeroInput.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="entity.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\Hooks.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="logger\Logger.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="functions\Functions.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\BasicHelper.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Engine_functions.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="globals\globals.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="memory\memory.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="drawing\drawing.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\CoreUObject_functions.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Prop_functions.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\FPS_Character2_functions.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\imgui\hashes.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="plog\Appenders\AndroidAppender.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="plog\Appenders\ColorConsoleAppender.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="plog\Appenders\ConsoleAppender.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="plog\Appenders\DebugOutputAppender.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="plog\Appenders\EventLogAppender.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="plog\Appenders\IAppender.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="plog\Appenders\RollingFileAppender.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="plog\Converters\NativeEOLConverter.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="plog\Converters\UTF8Converter.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="plog\Formatters\CsvFormatter.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="plog\Formatters\FuncMessageFormatter.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="plog\Formatters\MessageOnlyFormatter.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="plog\Formatters\TxtFormatter.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="plog\Init.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="plog\Log.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="plog\Logger.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="plog\Record.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="plog\Severity.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="plog\Util.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="plog\WinApi.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="xor.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_image.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="entity.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\hooks.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="logger\Logger.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="functions\Functions.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="memory\offsets.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="globals\globals.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="memory\memory.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="drawing\drawing.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ZeroGUI.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ZeroInput.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\MinHook.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
